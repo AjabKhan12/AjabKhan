@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Only Computer and Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Only Computer and Me</h1>
+    </header>
+    <main>
+        <section id="video-upload">
+            <h2>Upload a Video</h2>
+            <form id="upload-form" enctype="multipart/form-data">
+                <input type="file" id="video-file" accept="video/*" required>
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+        <section id="video-player">
+            <h2>Video Player</h2>
+            <video id="video" controls>
+                <!-- Video source will be added dynamically -->
+            </video>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
